@@ -2,5 +2,17 @@
 "Cube":{
 	"git":"https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
 	"file":"cube.groovy"
+	},
+"Cylinder":{
+	"git":"https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
+	"file":"cylinder.groovy"
+	},
+"Cube Hole":{
+	"git":"https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
+	"file":"cubeHole.groovy"
+	},
+"Cylinder Hole":{
+	"git":"https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
+	"file":"cylinderHole.groovy"
 	}
 }
