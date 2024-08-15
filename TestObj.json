@@ -2,23 +2,28 @@
 
 "Cube":{
 	"git":"https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
-	"file":"cube.groovy"
+	"file":"cube.groovy",
+	"order":"4"
 	},
 "Cylinder":{
 	"git":"https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
-	"file":"cylinder.groovy"
+	"file":"cylinder.groovy",
+	"order":"3"
 	},
 "Shpere":{
 	"git":"https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
-	"file":"sphere.groovy"
+	"file":"sphere.groovy",
+	"order":"2"
 	},
 "Cube Hole":{
 	"git":"https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
-	"file":"cubeHole.groovy"
+	"file":"cubeHole.groovy",
+	"order":"1"
 	},
 "Cylinder Hole":{
 	"git":"https://github.com/madhephaestus/CaDoodle-Example-Objects.git",
-	"file":"cylinderHole.groovy"
+	"file":"cylinderHole.groovy",
+	"order":"0"
 	}
 	
 }
