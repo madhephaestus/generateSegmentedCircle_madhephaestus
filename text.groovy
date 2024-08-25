@@ -12,9 +12,13 @@ CSG getObject(){
 "Serif",
 "SansSerif",
 "Monospaced"])
-	CSG text = CSG.text( word.getStrValue(),  20,  20, font.getStrValue())
+	CSG text = CSG.text( word.getStrValue(),  10,  20, font.getStrValue())
 	
-	text=text.toZMin().setColor(Color.RED)
+	text=   text.toZMin()
+				.rotz(-90)
+				.moveToCenterX()
+				.moveToCenterY()
+				.setColor(Color.RED)
 	return text
 		.setParameter(word)
 		.setParameter(font)
