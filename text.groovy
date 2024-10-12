@@ -6,13 +6,15 @@ import eu.mihosoft.vrl.v3d.parametrics.*;
 CSG getObject(){
 
 	StringParameter word = new StringParameter(	"CaDoodle_TextGeneration_Value",
-										"TEXT",[])
+										"Word",[])
 	StringParameter font = new StringParameter(	"CaDoodle_TextGeneration_Font",
 		"Arial",["Arial","System",
 "Serif",
 "SansSerif",
 "Monospaced"])
-	CSG text = CSG.text( word.getStrValue(),  10,  20, font.getStrValue())
+	String f = font.getStrValue()
+	println "Text "+ word.getStrValue()+"In font "+f
+	CSG text = CSG.text( word.getStrValue(),  10,  20, f)
 	
 	text=   text.toZMin()
 				.rotz(-90)
